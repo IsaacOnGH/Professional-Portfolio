@@ -11,43 +11,61 @@
 </head>
 <body>
     <header>
+        <!-- My navbar to get to different parts of my page -->
         <nav class="navbar">
             <ul>
-                <li> <a href="https://github.com/IsaacOnGH"><i class="fa fa-github" style="font-size:36px"></i></a></li>
-                <li> <a href="https://www.linkedin.com/in/isaac-melanson/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a></li>
+                <li> <a href="#About-Me">About Me</a></li>
+                <li> <a href="#Works">Works</a></li>
                 <li> <a href="#Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <h1 class="title"></h1>
+        <!-- This portion contains my photo, sizes it, and provides text to show what it is. -->
+        <h1 class="title">Isaac Melanson</h1>
         <figure>
             <img src="./Resources/profile.jpg" width="250px" height="250px" alt="Headshot of Isaac Melanson">
-            <figcaption class="caption">Isaac Melanson</figcaption>
+            <figcaption class="caption"></figcaption>
         </figure>
-        <section id="contact">
-            <form>
+        <!-- This portion houses my 'About me', 'Works', and 'Contact' sections -->
+        <div class="content">
+            <section id="About-Me">
+                <h2>About Me</h2>
+                <p>
+                Hello! My name is Isaac Melanson. I have worked in the retail space for 12 years and am excited to transition to full stack developing. I have a detail oriented approach to my work, drive results through communication, and foster a growth mindset in both professional and personal life. I look forward to connecting with you soon!
+                </p>
+            </section>
+            <!-- My images to my works are surrounded by links to the deployed github page -->
+            <section id="Works">
+                <h2>Works</h2>
+                <p>
+                    Here are just a few examples of my individual works and group projects.
+                </p>
+                    <a href="https://mvincent15.github.io/Dinner-and-a-Movie/">
+                        <figure>
+                        <img src="./Resources/Dinner-Date-SS.png" width="1000px" height="650px">
+                        <figcaption class="caption"></figcaption>
+                        </figure>
+                    </a> 
+                    <a href="https://isaacongh.github.io/HoriseonRefactor/">
+                        <figure>
+                        <img src="./Resources/Horiseon-Refactor-SS.png" width="1000px" height="300px">
+                        <figcaption class="caption"></figcaption>
+                        </figure>
+                    </a>
+            </section>
+            <!-- This section with my contact info contains some font awesome logos ported in from font awesome and work as links to their respectie websites. -->
+            <section id="Contact">
+            <section>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Phone: (817)-487-9422</li>
+                <li>Email: isaac.melanson@yahoo.com</li>
+                <li> <a href="https://github.com/IsaacOnGH"><i class="fa fa-github" style="font-size:36px"></i></a></li>
+                <li> <a href="https://www.linkedin.com/in/isaac-melanson/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a></li> 
               </ul>  
-            </form>
-        </section>    
-            
-
-
-        
-
-
-
-
-
-
-
-
-
+            </section>
+            </section>   
+        </div>
     </main>
 </body>
 </html>
